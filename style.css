@@ -1,0 +1,84 @@
+.form{
+    width:250px;
+    height:380px;
+    background-color: black;
+    position:absolute;
+    top:100px;
+    left:300px;
+    border: 2px solid black;
+    padding: 25px;
+}
+.form h2{
+    height: 30px;
+    width:230px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color:orange ;
+    margin: 2px;
+    padding: 8px;
+    font-size: 22px;
+}
+.form input{
+    width:240px;
+    height:35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+.form button{
+    height: 30px;
+    width:250px;
+    margin-top:20px ;
+    border-radius: 10px;
+    background-color: orange;
+    cursor:pointer;
+    color: white;
+    transition: 0.4s ease;
+
+}
+.form button:hover{
+    background: white;
+    color: orange;
+}
+.form button a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+.form .link{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+}
+.form .liw{
+    color: white;
+    text-align: center;
+}
+.form .icon i{
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    padding-right: 1px;
+}
+.form .icon i:hover{
+    color: orange;
+    cursor: pointer;
+}
